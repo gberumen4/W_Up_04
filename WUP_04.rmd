@@ -63,7 +63,13 @@ It appears that the entire TQR of the High school and LT High school is undernea
 
 ### Numerical Descriptive Results
 
-<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!--> 
+
+```{r include=TRUE,echo=FALSE}
+favstats( WORDSUM ~ DEGREE , data= mydata )
+```
+
+
 
 ## Inferential Results
 

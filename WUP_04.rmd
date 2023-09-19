@@ -54,11 +54,11 @@ Using Chat gpt and CandP helper files to compare numeric data and Categorical da
 ggplot(data = mydata, aes(x = DEGREE, y = WORDSUM) ) +
 geom_boxplot ( notch=FALSE , outlier.colour = "red" , outlier.size = 2 , fill = "darkgray" ) +
 stat_boxplot ( geom = 'errorbar' ) +
-labs ( x = "DEGREE" , y = "WORDSUM" , title = "WORDSUM EXPAINED BY DEGREE" ) +
+labs ( x = "DEGREE" , y = "WORDSUM SCORE" , title = "WORDSUM EXPAINED BY DEGREE" ) +
 theme ( plot.title = element_text (hjust = 0.5, size = 16) )
 ```
 
-
+It appears that the entire TQR of the High school and LT High school is underneath the median of all of the college groups.
 
 
 ### Numerical Descriptive Results
